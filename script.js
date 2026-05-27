@@ -14,3 +14,20 @@ themeButton.addEventListener("click", function() {
   document.body.classList.toggle("light-mode");
 
 });
+const hiddenElements = document.querySelectorAll(".hidden");
+
+window.addEventListener("scroll", function() {
+
+  hiddenElements.forEach(function(element) {
+
+    const elementTop = element.getBoundingClientRect().top;
+
+    if(elementTop < window.innerHeight - 100) {
+
+      element.classList.add("show");
+
+    }
+
+  });
+
+});
