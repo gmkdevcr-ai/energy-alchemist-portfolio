@@ -7,3 +7,10 @@ form.addEventListener("submit", function(event) {
   alert("✨ Tu sesión fue reservada correctamente ✨");
 
 });
+const themeButton = document.querySelector("#theme-toggle");
+
+themeButton.addEventListener("click", function() {
+
+  document.body.classList.toggle("light-mode");
+
+});
