@@ -80,3 +80,26 @@ footer {
   padding: 30px;
   color: #9ca3af;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav li {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+nav li:hover {
+  color: #c084fc;
+}
