@@ -103,3 +103,10 @@ nav li {
 nav li:hover {
   color: #c084fc;
 }
+.whatsapp-btn {
+  background: #25D366;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5d;
+}
