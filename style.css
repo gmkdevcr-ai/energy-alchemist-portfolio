@@ -216,20 +216,7 @@ button,
 .socials a:hover {
   background: #c084fc;
   transform: translateY(-5px);
-}
-.menu-toggle {
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
-}
-
-@media (max-width: 768px) {
-
-  nav {
-    flex-direction: column;
-    gap: 20px;
-  }
-
+  
   .menu-toggle {
   display: none;
   font-size: 2rem;
@@ -262,5 +249,4 @@ button,
   }
 
 }
-
 }
