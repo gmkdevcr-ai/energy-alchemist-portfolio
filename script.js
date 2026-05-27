@@ -15,13 +15,13 @@ themeButton.addEventListener("click", function() {
   document.body.classList.toggle("light-mode");
 
 });
-
 const menuToggle = document.querySelector(".menu-toggle");
 
-const navMenu = document.querySelector("nav ul");
+const navLinks = document.querySelector(".nav-links");
 
-menuToggle.addEventListener("click", function() {
+menuToggle.addEventListener("click", () => {
 
-  navMenu.classList.toggle("active");
+  navLinks.classList.toggle("active");
+
 
 });
