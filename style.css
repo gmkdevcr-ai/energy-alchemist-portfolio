@@ -231,38 +231,36 @@ button,
   }
 
   .menu-toggle {
-    display: block;
-    color: white;
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    gap: 20px;
   }
 
-  nav ul {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
     display: none;
     flex-direction: column;
     width: 100%;
     text-align: center;
     padding: 0;
+    gap: 15px;
   }
 
-  nav ul.active {
+  .nav-links.active {
     display: flex;
   }
 
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  .card {
-    width: 90%;
-  }
-
-  input,
-  select,
-  textarea {
-    width: 90%;
-  }
-
-  .hero-image {
-    width: 200px;
-  }
+}
 
 }
